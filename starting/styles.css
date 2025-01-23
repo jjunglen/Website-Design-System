@@ -1,14 +1,23 @@
-* {
-font-family: "Lato", sans-serif;
-}
+
 
 html {
+    font-family: "Lato", sans-serif;
     display: block;
     margin: 0 10%;
 }
 
 body {
     display: block;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header */
@@ -19,21 +28,22 @@ body {
     padding: 15px;
 }
 
-
-/* Colors */
 .container {
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 10px;
     margin: 10px auto;
 }
 
 .panel {
     display: inline-block;
-    width: 25%;
+    width: 30%;
     text-align: center;
     margin: 20px auto;
     padding: 10px;
+    font-size: 20px;
 }
+
+/* Colors */
 
 .darkcyan {
     background-color: hsl(180, 100%, 27%);
@@ -64,4 +74,46 @@ body {
     color: white;
 }
 
+/* Fonts */
 
+.font-container {
+    width: 45%;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif, !important;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Text Styles */
+.styles h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Lato", sans-serif;
+}
+
+.styles .subheading {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
